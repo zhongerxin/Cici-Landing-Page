@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>图片自适应窗口宽度</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            /* 确保页面可以滚动查看整个图片 */
+            overflow-y: auto;
+        }
+        img.responsive {
+            /* 使图片宽度自适应窗口宽度，高度自动调整 */
+            width: 100%;
+            height: auto;
+            /* 图片居中显示 */
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<img src="PC.png" alt="描述性文本" class="responsive">
+
+</body>
+</html>
